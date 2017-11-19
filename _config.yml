@@ -31,13 +31,13 @@ excerpt_separator: "<!--more-->"
 author :
   name : Antonio Trento
   email : lantoniotrento@gmail.com
-  github : growogether/growogether.github.io
+  github : 
   twitter : growogether
-  facebook: lantoniotrento
+  facebook:
   linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
-  google: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
+  instagram:
+  pinterest:
+  google:
   feedburner :
 
 google :
@@ -58,7 +58,7 @@ disqus :
 social:
   name: lantoniotrento
   links:
-    - https://twitter.com/lantoniotrento
+    - https://twitter.com/growogether
     - https://www.facebook.com/lantoniotrento
     - https://www.linkedin.com/in/antoniotrento
     - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
