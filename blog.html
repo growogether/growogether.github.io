@@ -29,7 +29,7 @@ image: assets/images/growogether-social.png
                 <div class="row">
                   {% for post in site.posts %}
                     <div class="col-md-12 col-lg-4">
-                        <div class="card">{% if post.img %}<img class="card-img-top ll-image" data-img-src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ post.img }}" alt="{{ post.title }} image missing">{% endif %}
+                        <div style="margin-top:1em" class="card">{% if post.img %}<img class="card-img-top ll-image" data-img-src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ post.img }}" alt="{{ post.title }} image missing">{% endif %}
                             <div class="card-body">
                                 <h4 class="card-title">{{ post.title }}</h4>
                                 <p class="card-text">{{ post.excerpt }}</p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="btn btn-green">Leggi</a></div>
