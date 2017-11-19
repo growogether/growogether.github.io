@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+description: Tutte le storie dai lettori di Growogether che sono riusciti a creare il loro business su web.
 tags : business, coworking, startup
 group: navigation
 author : Antonio Trento
@@ -13,12 +14,20 @@ image: assets/images/growogether-social.png
 <!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/plant.png" alt="Shard" class="shard">
 <!-- Welcome Section -->
 <div class="welcome d-flex justify-content-center flex-column">
-    <div class="inner-wrapper mt-auto mb-auto">
-        <h1 class="slide-in">Blog</h1>
-        <br />
-        <p class="slide-in">Tutte le storie dai lettori di Growogether che sono riusciti a creare il loro business su web.</p>
-        <div class="action-links slide-in"><a href=mailto:lantoniotrento@gmail.com class="btn btn-yellow btn-pill align-self-center mr-2"><i class="fa fa-comments-o mr-1"></i>Racconta la tua</a> <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-green btn-pill align-self-center">Tutti i post</a></div>
-    </div>
+
+      <div class="hidden-sm-down inner-wrapper mt-auto mb-auto">
+          <h1 class="shadow slide-in">{{page.title}}</h1><br />
+
+          <p style="font-size: 1.50rem; font-weight: 300;" class="slide-in">{{page.description}}</p>
+          <div class="action-links slide-in"><a href=mailto:lantoniotrento@gmail.com class="btn btn-yellow btn-pill align-self-center mr-2"><i class="fa fa-comments-o mr-1"></i>Racconta la tua</a> <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-green btn-pill align-self-center">Tutti i post</a></div>
+      </div>
+      <div class="hidden-md-up inner-wrapper mt-auto mb-auto">
+          <h1 style="font-size: 3.25rem!important;" class="shadow slide-in">{{page.title}}</h1>
+
+          <p style="font-size: 1.50rem; font-weight: 300;" class="slide-in">{{page.description}}</p>
+          <div class="action-links slide-in"><a href=mailto:lantoniotrento@gmail.com class="btn btn-yellow btn-pill align-self-center mr-2"><i class="fa fa-comments-o mr-1"></i>Racconta la tua</a> <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-green btn-pill align-self-center">Tutti i post</a></div>
+      </div>
+
 </div>
 <!-- Page Content -->
 <div id = "introduction" class="page-content">
