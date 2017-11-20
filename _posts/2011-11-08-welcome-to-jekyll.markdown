@@ -6,7 +6,7 @@ date:   2011-11-08 22:43:35 +0100
 categories: jekyll update
 tags: [ jekyll, update ]
 img: 1.jpg
-head-img: shard-1-5x-3.png
+floating: plant.png
 image: assets/images/1.jpg
 ---
 You’ll find this post in your `_posts` directory.
