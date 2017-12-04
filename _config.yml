@@ -27,6 +27,7 @@ excerpt_separator: "<!--more-->"
 
 # paginate: 6
 
+logo: /assets/images/plant.png
 
 author :
   name : Antonio Trento
